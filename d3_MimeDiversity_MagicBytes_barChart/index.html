@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>MIME Diversity Bar Viz</title>
+	<style>
+
+	.bar--positive {
+	  fill: steelblue;
+	}
+
+	.bar--negative {
+	  fill: darkorange;
+	}
+
+	.axis text {
+	  font: 10px sans-serif;
+	}
+
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
+	</style>
+</head>
+<body>
+	<h2>Tika MIME Classification Analysis after magic bytes update</h2>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="barChart_Compare.js"></script>
+</body>
+</html>

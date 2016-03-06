@@ -1,0 +1,102 @@
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet
+
+03/02/2016  09:56 PM    <DIR>          .
+03/02/2016  09:56 PM    <DIR>          ..
+02/10/2016  07:53 PM            10,752 00E0703641B2FBC5B4FA0E5D7E096801F68C484E3292C4AD063C705D88633FDC
+02/10/2016  08:16 PM            48,128 0B2BBFA70156EF1D43D251AF9A1A39EE63F8A403810F0E98D3753281DAC3B6A9
+02/21/2016  02:29 AM            13,940 0FD63AFDC60C7BFDDB332B7D8342C4C4C91BF21F69B8632B4D5D0FBC44652498
+02/10/2016  07:48 PM            65,536 1BBEABE394D578D34ADD66C17047F45D49FCBCC8371A8F8781824AACCAA8C096
+02/10/2016  11:43 PM            65,536 1F7CD1B0767FB1AC70704548414ACD6F4513874AB143BB4A3A9F5646B74F0D0A
+02/10/2016  05:54 PM             8,869 1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+02/10/2016  05:54 PM             7,169 62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+02/10/2016  05:54 PM            16,799 D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+               8 File(s)        236,729 bytes
+               2 Dir(s)  366,138,494,976 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>cd ..
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>javac fileClassify.java
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>java fileClassify rawDataSet
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/00E0703641B2FBC5B4FA0E5D7E096801F68C484E3292C4AD063C705D88633FDC
+fileType : application/msword : 00E0703641B2FBC5B4FA0E5D7E096801F68C484E3292C4AD063C705D88633FDC
+
+Directory created  : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_msword
+
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_msword/00E0703641B2FBC5B4FA0E5D7E096801F68C484E3292C4AD063C705D88633FDC
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/0B2BBFA70156EF1D43D251AF9A1A39EE63F8A403810F0E98D3753281DAC3B6A9
+fileType : application/msword : 0B2BBFA70156EF1D43D251AF9A1A39EE63F8A403810F0E98D3753281DAC3B6A9
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_msword/0B2BBFA70156EF1D43D251AF9A1A39EE63F8A403810F0E98D3753281DAC3B6A9
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/0FD63AFDC60C7BFDDB332B7D8342C4C4C91BF21F69B8632B4D5D0FBC44652498
+fileType : application/postscript : 0FD63AFDC60C7BFDDB332B7D8342C4C4C91BF21F69B8632B4D5D0FBC44652498
+
+Directory created  : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_postscript
+
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_postscript/0FD63AFDC60C7BFDDB332B7D8342C4C4C91BF21F69B8632B4D5D0FBC44652498
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/1BBEABE394D578D34ADD66C17047F45D49FCBCC8371A8F8781824AACCAA8C096
+fileType : application/postscript : 1BBEABE394D578D34ADD66C17047F45D49FCBCC8371A8F8781824AACCAA8C096
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_postscript/1BBEABE394D578D34ADD66C17047F45D49FCBCC8371A8F8781824AACCAA8C096
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/1F7CD1B0767FB1AC70704548414ACD6F4513874AB143BB4A3A9F5646B74F0D0A
+fileType : application/postscript : 1F7CD1B0767FB1AC70704548414ACD6F4513874AB143BB4A3A9F5646B74F0D0A
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/application_postscript/1F7CD1B0767FB1AC70704548414ACD6F4513874AB143BB4A3A9F5646B74F0D0A
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+fileType : text/html : 1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+
+Directory created  : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/text_html
+
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/text_html/1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+fileType : text/html : 62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/text_html/62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+curLocation : C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+fileType : text/html : D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+File is moved successful! to C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet/text_html/D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+
+
+File Classification Status with current run ( NOTE : Files already classified into directories are not accounted!!)
+application_msword : 2
+application_postscript : 3
+text_html : 3
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>dir rawDataSet
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet
+
+03/02/2016  09:56 PM    <DIR>          .
+03/02/2016  09:56 PM    <DIR>          ..
+03/02/2016  09:56 PM    <DIR>          application_msword
+03/02/2016  09:56 PM    <DIR>          application_postscript
+03/02/2016  09:56 PM    <DIR>          text_html
+               0 File(s)              0 bytes
+               5 Dir(s)  366,138,490,880 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>
+
+
+
+
+
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>javac fileAnalyse.java
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>java fileAnalyse rawDataSet\application_msword
+fileType : application/msword : 00E0703641B2FBC5B4FA0E5D7E096801F68C484E3292C4AD063C705D88633FDC
+fileType : application/msword : 0B2BBFA70156EF1D43D251AF9A1A39EE63F8A403810F0E98D3753281DAC3B6A9
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>java fileAnalyse rawDataSet\application_postscript
+fileType : application/postscript : 0FD63AFDC60C7BFDDB332B7D8342C4C4C91BF21F69B8632B4D5D0FBC44652498
+fileType : application/postscript : 1BBEABE394D578D34ADD66C17047F45D49FCBCC8371A8F8781824AACCAA8C096
+fileType : application/postscript : 1F7CD1B0767FB1AC70704548414ACD6F4513874AB143BB4A3A9F5646B74F0D0A
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>java fileAnalyse rawDataSet\text_html
+fileType : text/html : 1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+fileType : text/html : 62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+fileType : text/html : D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>

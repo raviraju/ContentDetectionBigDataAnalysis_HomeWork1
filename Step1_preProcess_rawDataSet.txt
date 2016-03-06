@@ -1,0 +1,81 @@
+C:\Users\Ravi\Desktop\MimeDetectionHomework>dir rawDataSet
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet
+
+03/02/2016  09:33 PM    <DIR>          .
+03/02/2016  09:33 PM    <DIR>          ..
+03/02/2016  09:33 PM    <DIR>          1
+03/02/2016  09:33 PM    <DIR>          12
+03/02/2016  09:33 PM    <DIR>          16
+               0 File(s)              0 bytes
+               5 Dir(s)  366,199,656,448 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>dir C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\1\140\237\169
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\1\140\237\169
+
+03/02/2016  09:33 PM    <DIR>          .
+03/02/2016  09:33 PM    <DIR>          ..
+02/10/2016  05:54 PM            16,799 D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+               1 File(s)         16,799 bytes
+               2 Dir(s)  366,198,857,728 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>dir C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\12\153\138\128
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\12\153\138\128
+
+03/02/2016  09:33 PM    <DIR>          .
+03/02/2016  09:33 PM    <DIR>          ..
+02/10/2016  05:54 PM             7,169 62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+               1 File(s)          7,169 bytes
+               2 Dir(s)  366,198,857,728 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>dir C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\16\182\248\132
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet\16\182\248\132
+
+03/02/2016  09:33 PM    <DIR>          .
+03/02/2016  09:33 PM    <DIR>          ..
+02/10/2016  05:54 PM             8,869 1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+               1 File(s)          8,869 bytes
+               2 Dir(s)  366,198,792,192 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework>
+
+
+
+
+
+
+
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>for /r %i in (*) do @move "%i" .
+        1 file(s) moved.
+        1 file(s) moved.
+        1 file(s) moved.
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>for /d %i in (*) do @rmdir /s /q "%i"
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 6C80-0B67
+
+ Directory of C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet
+
+03/02/2016  09:47 PM    <DIR>          .
+03/02/2016  09:47 PM    <DIR>          ..
+02/10/2016  05:54 PM             8,869 1FAAE941B2E212EEC096EB0B2E9DB75FCC2FAB2E99AFA8DB6B48534478505E4E
+02/10/2016  05:54 PM             7,169 62821ECFBF1ED615D51149EF92A6D738C745D8C68E07713839F638B16FAB84CC
+02/10/2016  05:54 PM            16,799 D76C87BE5418E903A95CF9949373666AA5A7BB0A6BD2F37F0034B3546D2DEEBB
+               3 File(s)         32,837 bytes
+               2 Dir(s)  366,139,285,504 bytes free
+
+C:\Users\Ravi\Desktop\MimeDetectionHomework\rawDataSet>

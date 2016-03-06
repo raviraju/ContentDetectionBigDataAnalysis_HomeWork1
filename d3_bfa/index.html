@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>BFA</title>
+</head>
+<style>
+
+body {
+  font: 10px sans-serif;
+}
+
+.tooltipText {
+  font: 20px sans-serif;
+  font-weight: bold;
+}
+
+.textClass{
+	font : 15px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.blueline {
+  fill: none;
+  stroke: steelblue;
+}
+
+.blueline:hover {
+  fill: none;
+  stroke: blue;
+}
+
+.redline {
+  fill: none;
+  stroke: red;
+}
+
+.redline:hover {
+  fill: none;
+  stroke: black;
+}
+
+</style>
+<body>
+<h1 align="center">Byte Freqency Analysis </h1>
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<h4>Note : </br>In the following fingerprints </br> Red line represents correlation strength </br> Blue line represents average frequency distribution</h4>
+<script src="lineChart.js"></script>
+</body>
+</html>
